@@ -1,0 +1,28 @@
+/* Supplemental styles: the archived global nav / header CSS was not in the uploaded set,
+   so these approximate it. Swap in the real file if you have it. */
+body{margin:0;font:12px/1.4 Arial,sans-serif;color:#333}
+a{color:#1a4f8b;text-decoration:none} a:hover{text-decoration:underline}
+.notice{background:#fff7d6;border-bottom:1px solid #e0cf85;color:#5a4a00;text-align:center;padding:6px}
+#layoutLogic{margin:0 auto}
+#nav{background:#444;height:59px;display:flex;align-items:flex-start;width:1006px}
+#nav .logo{background:#e1251b;color:#fff;width:59px;height:96px;font:bold 22px Arial;text-align:center;padding-top:8px;box-sizing:border-box;position:relative;z-index:2}
+#nav .logo small{display:block;font-size:10px}
+#nav a{color:#ddd;font-size:18px;padding:0 24px;line-height:59px;border-right:1px solid #333}
+#sub{width:1006px;height:36px;background:#b4b4b4;text-align:right;line-height:36px;font-size:16px;box-sizing:border-box;padding-right:14px}
+#sub a{color:#333;margin-left:14px}
+#content-header{background-color:#222;color:#fff;padding:14px 10px 12px;position:relative}
+#content-header .crumb{font-size:15px;color:#ccc}
+#content-header .crumb a{color:#ccc}
+#content-header h1{margin:6px 0 0;font:300 40px/1.1 Arial,sans-serif}
+#content-wrapper{width:1006px;background-color:#fff}
+#content-body{padding:20px 24px 20px 16px;min-height:380px}
+.fp{display:flex;gap:28px}
+.fp .icon{width:96px;height:96px;flex:none;background:linear-gradient(#c9302c,#8e1c18);color:#fff;font:italic bold 64px Georgia,serif;text-align:center;line-height:96px}
+.fp .main{width:430px;font-size:14px;line-height:1.5}
+.fp h2{font:300 28px Arial;margin:0 0 10px}.fp h2 small{font-size:16px;color:#888}
+.dlbtn{display:inline-block;background:linear-gradient(#fcc54a,#f0a21b);border:1px solid #c58a1a;color:#222;font-weight:bold;padding:9px 14px;margin:10px 0}
+.dlbtn:hover{text-decoration:none}
+.side{width:230px;font-size:14px}.side h3{text-transform:uppercase;font-size:14px;margin:0 0 12px}.side a{display:block;margin-bottom:8px}
+.redbox{border:2px solid #c00;padding:1px 5px;display:inline-block}
+.SiteFooter{padding:14px 10px;color:#ccc;font-size:13px;min-height:60px}
+.SiteFooter a{color:#fff}

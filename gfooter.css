@@ -1,0 +1,210 @@
+/*	GLOBAL FOOTER
+	$Id: //depot/projects/dylan/releases/rc_12_7/ubi/template/identity/adobe/screen/gfooter.css#1 $
+*/
+
+.SiteFooter {
+  margin-top: 16px;
+  background: #3d3d3d none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#383838));
+  background: -moz-linear-gradient(top, #585858, #383838);
+  filter: progid:DXImageTransform.Microsoft.gradient(endcolorstr=#FF383838, startcolorstr=#FF585858));
+  background: -ms-linear-gradient(top, #585858, #383838);
+  background: -o-linear-gradient(top, #585858, #383838);
+  zoom: 1;
+}
+
+.SiteFooter li {
+  line-height: 14px;
+  margin-bottom: 4px;
+}
+
+.SiteFooterLinkList a,
+.SiteFooterLinkList a:link {
+  color: #CCC;
+}
+
+.SiteFooterLinkList a:link:hover,
+.SiteFooterLinkList a:visited:hover,
+.SiteFooterLinkList a:hover,
+.SiteFooterLinkList a:visited:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.SiteFooterLinkList {
+  margin-bottom: 16px;
+}
+
+.SiteFooterLinkListBottom {
+  margin-bottom: 0;
+}
+
+.SiteFooter h4 {
+  font-weight: bold;
+}
+
+.SiteFooter hr {
+  width: 100%;
+  border-style: none;
+  border-top: 2px groove #555;
+}
+
+.SiteFooterRowTop {
+  margin-top: 4px;
+}
+
+.SiteFooterMenuItemIconProducts {
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.SiteFooterMenuItemIconCS {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_creativesuite.png);
+}
+
+.SiteFooterMenuItemIconPS {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_photoshop.png);
+}
+
+.SiteFooterMenuItemIconAcrobat {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_acrobat.png);
+}
+
+.SiteFooterMenuItemIconPlatform {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_flashservices.png);
+}
+
+.SiteFooterMenuItemIconOMS {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_digimktg.png);
+}
+
+.SiteFooterMenuItemIconDES {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_enterprise.png);
+}
+
+.SiteFooterMenuItemIconDPS {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_digipub.png);
+}
+
+.SiteFooterMenuItemIconMobile {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_mobile.png);
+}
+
+.SiteFooterMenuItemIconElements {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_elements.png);
+}
+
+.SiteFooterMenuItemIconCloud {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/icon_cloud.png);
+}
+
+.SiteFooterMenuItemIcon {
+  padding: 2px 0 2px 38px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.SiteFooterMenuItemIconRegionBlue {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/region_blue.png);
+}
+
+.SiteFooterMenuItemIconRegionBlack {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/region_black.png);
+}
+
+.SiteFooterMenuItemIconEvidon {
+  background-image: url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/evidon.png);
+  background-repeat: no-repeat;
+  padding-left: 18px;
+}
+
+.SiteFooterRegionPanel {
+  background-color: #FFF;
+  color: #333;
+  position: absolute;
+  border: 1px solid #333;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 5px 10px -moz-rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+  z-index: 100;
+  bottom: 94px;
+  left: 20px;
+  width: 700px;
+  padding: 16px;
+  line-height: normal;
+}
+
+.SiteFooterRegionPanelEvidon {
+  bottom: 104px;
+}
+
+.SiteFooterRegionPanelHeader {
+  font: 18px "Myriad Pro", Helvetica, sans-serif;
+  margin-bottom: 4px;
+}
+
+.SiteFooterRegionPanelHeaderClose {
+  margin-top: 3px;
+  *margin-top: -18px;
+  float: right;
+  text-indent: -9999px;
+  width: 17px;
+  height: 17px;
+  background: transparent url(https://web.archive.org/web/20120705090832im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/SiteFooter/close.png) no-repeat;
+  cursor: pointer;
+}
+
+.SiteFooterRegionPanelRegionHeader {
+  margin: 12px 0 0 0;
+  font-size: 12px;
+  font-weight: bold
+}
+
+.SiteFooterRegionPanel ul,
+.SiteFooterRegionPanel li {
+  list-style: none outside none;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.SiteFooterRegionPanel li {
+  margin-top: 2px;
+  line-height: 1.2em;
+}
+
+.SiteFooterRegionPanel a {
+  cursor: pointer;
+}
+
+.SiteFooterRegionPanel .Column {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#Georouting {
+  display: none;
+}
+
+/*
+     FILE ARCHIVED ON 09:08:32 Jul 05, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:52:39 Nov 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  capture_cache.get: 0.624
+  captures_list: 0.831
+  exclusion.robots: 0.118
+  exclusion.robots.policy: 0.102
+  esindex: 0.009
+  cdx.remote: 49.665
+  LoadShardBlock: 241.15 (6)
+  PetaboxLoader3.datanode: 260.518 (8)
+  load_resource: 161.705 (2)
+  PetaboxLoader3.resolve: 129.067 (2)
+  revisit.resolve: 32.087
+*/

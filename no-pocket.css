@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+
+.columns-2-AB-A,
+.columns-2-AB-B {
+  width: 49.3815%;
+}
+
+li .columns-2-AB-A,
+li .columns-2-AB-B {
+  _width: 46% !important;
+}
+
+.columns-2-Abb-A,
+.columns-2-aaB-B {
+  width: 65.155%;
+}
+
+.columns-2-Abb-bb,
+.columns-2-aaB-aa {
+  width: 33.609%;
+}
+
+.columns-2-aaBB-aa,
+.columns-2-AAbb-bb {
+  width: 23.822%;
+}
+
+.columns-2-aaBB-BB,
+.columns-2-AAbb-AA {
+  width: 73.300%;
+}
+
+.columns-3-ABC-A,
+.columns-3-ABC-B,
+.columns-3-ABC-C {
+  width: 32.577%;
+}
+
+.columns-3-aaBC-aa,
+.columns-3-ABcc-cc,
+.columns-3-aaBcc-aa,
+.columns-3-aaBcc-cc {
+  width: 25.365%
+}
+
+.columns-3-aaBC-B,
+.columns-3-aaBC-C,
+.columns-3-ABcc-A,
+.columns-3-ABcc-B {
+  width: 36.085%;
+}
+
+.columns-3-aaBcc-B {
+  width: 46.81%
+}
+
+.columns-4-ABCD-A,
+.columns-4-ABCD-B,
+.columns-4-ABCD-C,
+.columns-4-ABCD-D {
+  width: 23.345%;
+}
+
+.columns-4-ABCD-A,
+.columns-4-ABCD-B,
+.columns-4-ABCD-C,
+.columns-4-ABCD-D {
+  width: 24.124%;
+}
+
+.columns-3-aaBC-B,
+.columns-3-ABcc-B,
+.columns-3-aaBcc-B,
+.columns-3-ABC-B,
+.columns-4-ABCD-B,
+.columns-4-ABCD-C {
+  margin-left: 1.237%
+}
+
+/*--- 3-aaaBc ---*/
+.columns-3-aaaBc-aaa {
+  width: 13%;
+}
+
+.columns-3-aaaBc-B {
+  width: 60%;
+}
+
+.columns-3-aaaBc-c {
+  width: 25%;
+}
+
+/*--- 3-aaaBcc (for Phoenix) ---*/
+
+.columns-3-aaaBcc-aaa {
+  width: 20%;
+}
+
+.columns-3-aaaBcc-B {
+  width: 42%;
+}
+
+.columns-3-aaaBcc-cc {
+  width: 36%;
+}
+
+/*--- 3-aaBccc (for Phoenix) ---*/
+
+.columns-3-aaBccc-aa {
+  width: 20%;
+}
+
+.columns-3-aaBccc-B {
+  width: 60%;
+}
+
+.columns-3-aaBccc-cc {
+  width: 16%;
+}
+
+
+/*--- 5-ABCDE ---*/
+.columns-5-ABCDE-A,
+.columns-5-ABCDE-B,
+.columns-5-ABCDE-C,
+.columns-5-ABCDE-D,
+.columns-5-ABCDE-E {
+  width: 20%;
+}
+
+#globalfooter {
+  width: 970px;
+}
+
+/*--- LAYOUT LOGIC ---*/
+
+#layoutLogic {
+  width: 1006px;
+}
+
+#content-header {
+  width: 764px;
+}
+
+#content-header {
+  _margin-right: -32px;
+}
+
+#content-body {
+  width: auto;
+  padding-right: 24px;
+  padding-top: 1px;
+  position: relative;
+  min-height: 600px;
+  _height: 600px;
+  background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-body-shadow.png) 0 0 repeat-y;
+  _background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-body-shadow-8bit.png) 0 0 repeat-y;
+}
+
+
+#content-layout,
+#content-marquee {
+  padding-top: 20px;
+}
+
+#marquee-body,
+#content-pocket {
+  position: relative;
+  top: -17px;
+}
+
+/* with-marquee */
+
+.with-marquee #content-body {
+  padding-top: 1px;
+}
+
+.with-marquee #content-layout {
+  background-image: none;
+  padding-top: 0;
+}
+
+#marquee-body {
+  position: relative;
+  top: -17px;
+}
+
+/* banner */
+
+#content-banner {
+  position: relative;
+  top: -18px;
+  left: -16px;
+  margin-right: -16px;
+  width: 998px;
+  margin-bottom: -5px;
+}
+
+.columns-2-AB-A #content-banner,
+.columns-2-AB-B #content-banner,
+.columns-2-aaB-aa #content-banner,
+.columns-2-aaB-B #content-banner,
+.columns-2-Abb-A #content-banner,
+.columns-2-Abb-bb #content-banner,
+.columns-2-aaBB-aa #content-banner,
+.columns-2-aaBB-BB #content-banner,
+.columns-2-AAbb-AA #content-banner,
+.columns-2-AAbb-bb #content-banner {
+  width: auto;
+  _top: -20px;
+  *top: -20px;
+}
+
+.banner-body {
+  padding: 17px 16px 3px 16px;
+}
+
+#content-body .search-form {
+  margin: -18px -16px 1em -16px;
+  padding: 20px 16px 4px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+#content-body .pod-body .search-form fieldset {
+  width: 99% !important;
+  margin-bottom: 0 !important;
+}
+
+#content-body .pod-body .search-form .textfield {
+  width: 89% !important;
+}
+
+
+
+
+body {
+  background-color: #B9B9B9;
+  background-image: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/windowfrost.png);
+  background-repeat: no-repeat;
+}
+
+#content-header {
+  background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/contentHeader_topshadow.png) right 0px no-repeat;
+  _background-image: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-header-topshadow-8bit.png);
+  margin-bottom: -3px;
+}
+
+#content-wrapper,
+#marquee-body-chrome {
+  background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-body-shadow.png) 0 0 repeat-y;
+  _background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-body-shadow-8bit.png) 0 0 repeat-y;
+}
+
+#content-layout,
+#content-marquee {
+  background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-layout-top-shadow.png) 0 0 no-repeat;
+  _background: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-layout-top-shadow-8bit.png) 0 0 no-repeat;
+}
+
+#globalfooter {
+  background-image: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/contentFooter_dropshadow.png);
+  _background-image: url(https://web.archive.org/web/20120705090808im_/http://wwwimages.adobe.com/www.adobe.com/ubi/template/identity/adobe/screen/theme/content-footer-shadow-8bit.png);
+  background-repeat: repeat-y;
+}
+
+/*
+     FILE ARCHIVED ON 09:08:08 Jul 05, 2012 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:52:26 Nov 09, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.621
+  exclusion.robots: 0.076
+  exclusion.robots.policy: 0.066
+  esindex: 0.007
+  cdx.remote: 14.003
+  LoadShardBlock: 734.669 (6)
+  PetaboxLoader3.resolve: 702.645 (4)
+  PetaboxLoader3.datanode: 178.992 (8)
+  load_resource: 220.875 (2)
+  revisit.resolve: 172.635
+*/
