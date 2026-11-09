@@ -26,3 +26,14 @@ a{color:#1a4f8b;text-decoration:none} a:hover{text-decoration:underline}
 .redbox{border:2px solid #c00;padding:1px 5px;display:inline-block}
 .SiteFooter{padding:14px 10px;color:#ccc;font-size:13px;min-height:60px}
 .SiteFooter a{color:#fff}
+/* Taller page, matching the original */
+#content-body{min-height:820px}
+.addres{width:1006px;background:#fff;box-sizing:border-box;padding:6px 10px 10px;font-size:15px;color:#555}
+.addres a{margin-right:12px}
+.addres .row2{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.addres .region{font-weight:bold;color:#1a4f8b;margin-left:44px}
+.addres .links a{font-weight:bold;margin:0 0 0 14px}
+.SiteFooter{position:relative;min-height:70px;background:#444}
+.SiteFooter .upd{color:#e1251b}
+.truste{position:absolute;right:12px;top:10px;background:#fff;color:#222;border:1px solid #8c3;padding:2px 8px;text-align:center;line-height:1.1}
+.truste small{font-size:8px;color:#8c3}
