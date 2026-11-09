@@ -40,3 +40,9 @@ a{color:#1a4f8b;text-decoration:none} a:hover{text-decoration:underline}
 /* Image assets */
 img.icon{display:block;background:none;object-fit:contain}
 #nav img.logo{display:block;background:none;padding:0;object-fit:fill}
+/* Round 2 fixes */
+#nav{position:relative;background:linear-gradient(#585858,#383838)}
+#nav a{border-right:1px solid #2a2a2a;box-shadow:1px 0 0 rgba(255,255,255,.08)}
+.logocap{position:absolute;left:0;top:0;width:59px;height:28px;background:#e1251b;z-index:3}
+#sub a:last-child{color:#1a4f8b}
+img.truste{position:absolute;right:12px;top:10px;height:46px;width:auto;background:none;border:0;padding:0}
